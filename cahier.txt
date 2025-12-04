@@ -1,0 +1,233 @@
+D’accord, voici la description complète, détaillée et exhaustive de l’écran Home / Accueil de ta PWA, comme si c’était un écran d'application Android.
+
+Je vais décrire tous les éléments, leur comportement, leur structure, leur rôle, leur position, leur logique UI/UX.
+
+🟦 ÉCRAN HOME / DASHBOARD — DESCRIPTION COMPLÈTE
+
+L’écran Home est le cœur de l’application.
+C’est la première interface que l’utilisateur voit après le splash screen.
+
+Il doit être clair, simple, rapide, et donner accès à tous les modules.
+
+🔝 1. En-tête (Header / AppBar)
+1.1 Position
+
+En haut de l’écran, toujours visible.
+
+1.2 Contenu
+
+Logo ou icône de l’app (petite version)
+
+Nom de l’application : Apprendre le Français
+
+Bouton Menu ☰ si tu utilises un navigation drawer
+
+Optionnel : bouton pour le mode clair/sombre
+
+1.3 Fonctions
+
+Mettre en avant l'identité de l'application
+
+Donner accès rapide aux paramètres via le menu
+
+1.4 Comportement
+
+Le header reste fixe
+
+En scroll, il peut se compresser légèrement
+
+🟨 2. Bannière d’accueil / Message d’introduction
+
+Juste sous le header.
+
+2.1 Contenu
+
+Un message simple :
+
+Bienvenue ! Prêt(e) à apprendre le français ?
+
+2.2 Optionnel
+
+Petite illustration style “apprentissage / langue”
+
+Animation légère (Lottie)
+
+Pas obligatoire, mais renforce l’ambiance positive
+
+2.3 Objectif
+
+Mettre le ton, accueillir sans surcharger.
+
+🟥 3. Section principale : Modules d’apprentissage
+
+C’est la partie la plus importante.
+
+Elle contient des cartes rectangulaires ou carrées, faciles à cliquer, représentant les modules.
+
+3.1 Organisation
+
+En grille (2 colonnes), ou en liste avec icônes.
+
+3.2 Cartes disponibles
+
+Chaque carte doit être visuelle, simple, identifiable, par exemple :
+
+1) Phrases utiles
+
+Icône : 💬
+Description courte :
+
+Les phrases essentielles pour parler en situations réelles.
+
+2) Dialogues
+
+Icône : 🎭
+Description :
+
+Des dialogues pour pratiquer la conversation.
+
+3) Grammaire
+
+Icône : 📘
+Description :
+
+Comprendre les règles de base du français.
+
+4) Vocabulaire
+
+Icône : 🧠
+Description :
+
+Apprends les mots essentiels par thème.
+
+5) Quiz & Exercices
+
+Icône : 📝
+Description :
+
+Teste ce que tu as appris.
+
+6) Compréhension orale / écrite
+
+Icône : 🎧 / 📖
+Description :
+
+Lis, écoute et comprends des textes simples.
+
+3.3 Comportement UX
+
+Chaque carte a un effet “tap ripple” (effet d'app mobile)
+
+Une transition légère ouvre la page
+
+Icône + titre toujours visibles
+
+Texte optionnel peut disparaître sur petits écrans
+
+🟩 4. Section secondaire : Actions rapides (facultative)
+
+Petite ligne ou 3 mini-boutons sous les modules :
+
+Boutons possibles :
+
+🔍 Rechercher un mot
+
+⭐ Leçons recommandées
+
+🎯 Objectif du jour (sans système de suivi, juste suggestion statique)
+
+Objectif
+
+Améliorer la navigation, mais optionnel.
+
+🟪 5. Footer / Navigation (selon ton style)
+
+Deux choix possibles :
+
+A) Bottom Navigation (comme Instagram, YouTube, etc.)
+
+Accueil
+
+Modules
+
+Quiz
+
+Paramètres
+
+OU
+
+B) Aucun footer, seulement un menu hamburger en haut.
+
+Les deux sont valides.
+
+⚙️ 6. Fonctionnalités internes de l’écran Home
+6.1 Responsive
+
+Mobile first
+
+S’adapte aux écrans tablettes
+
+Les cartes passent de 2 à 3 colonnes si écran plus large
+
+6.2 Mode sombre
+
+Tout l’écran Home doit :
+
+inverser les couleurs
+
+garder les icônes lisibles
+
+adoucir les contrastes
+
+6.3 Accessibilité
+
+Taille du texte ajustable (depuis Paramètres)
+
+Icônes lisibles
+
+Feedback visuels lors des interactions
+
+🌈 7. Comportement logique
+Au lancement :
+
+l’app charge le home
+
+si l’utilisateur ferme puis rouvre l’app, il revient ici
+
+aucun suivi, aucun compte nécessaire
+
+Interaction :
+
+un tap sur une carte → ouvre un module
+
+retour → revient ici
+
+🧩 8. Style visuel recommandé
+
+Style minimaliste, pédagogique
+
+Beaucoup d’espace entre les modules
+
+Couleurs principales (exemple) :
+
+Bleu (#276EF1)
+
+Blanc (#FFFFFF)
+
+Gris clair (#F5F5F5)
+
+Icônes simples style Material Icons
+
+🎯 Résumé ultra condensé
+
+L’écran Home est composé de :
+
+Header
+
+Message d’accueil
+
+Cartes des modules
+
+Actions rapides (optionnel)
+
+Navigation (menu ou bottom bar)
